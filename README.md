@@ -1,33 +1,35 @@
 # Focus Timer Kotlin
 
 A minimalist and elegant focus timer Android app built with Kotlin and Jetpack Compose, featuring a dark AMOLED theme and modern Material 3 design.
-By: NKG Systems
+
+**By: NKG Systems + NathanGr33n**
 
 ## 🎯 Features
 
-- **Pomodoro Timer**: Customizable focus sessions with preset durations (15, 25, 45 minutes)
-- **Custom Duration**: Set any custom timer duration up to 999 minutes
-- **Auto-Repeat**: Automatically restart sessions for continuous focus cycles
-- **Session Tracking**: Keep track of completed focus sessions
-- **Modern UI**: Clean Material 3 design with AMOLED dark theme
-- **Notifications**: Get notified when sessions complete with vibration feedback
-- **Always-On Display**: Screen stays on during active sessions
-- **Portrait Lock**: Optimized for portrait orientation to minimize distractions
+- **🍅 Pomodoro Timer**: Customizable focus sessions with preset durations (15, 25, 45 minutes)
+- **⏱️ Custom Duration**: Set any custom timer duration up to 999 minutes
+- **🔄 Auto-Repeat**: Automatically restart sessions for continuous focus cycles
+- **📊 Session Tracking**: Keep track of completed focus sessions
+- **🎨 Modern UI**: Clean Material 3 design with pure AMOLED dark theme
+- **🔔 Smart Notifications**: Get notified when sessions complete with haptic feedback
+- **💡 Always-On Display**: Screen stays on during active sessions to prevent interruptions
+- **📱 Portrait Optimized**: Locked to portrait orientation to minimize distractions
+- **🚀 Performance Focused**: Lightweight and battery-efficient design
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Android Studio Arctic Fox or later
-- Android SDK API level 24 or higher
-- Kotlin 1.9.10+
-- Java 17
+- **Android Studio**: Hedgehog (2023.1.1) or later recommended
+- **Android SDK**: API level 24 (Android 7.0) minimum, targets API 35 (Android 15)
+- **Kotlin**: 1.9.10+
+- **Java**: JDK 17 or higher
 
 ### Installation
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/focus_timer_kotlin.git
+   git clone https://github.com/nkg-systems/focus_timer_kotlin.git
    cd focus_timer_kotlin
    ```
 
@@ -104,16 +106,19 @@ Gh0st_Focus/
 
 ## 🛠️ Technologies Used
 
-- **Kotlin**: Primary programming language
-- **Jetpack Compose**: UI framework
-- **Material 3**: Design system
+- **Kotlin 1.9.10**: Primary programming language with latest features
+- **Jetpack Compose (2024.08.00 BOM)**: Modern declarative UI framework
+- **Material 3**: Latest Material Design system with dynamic theming
 - **AndroidX Libraries**:
-  - Activity Compose
-  - Lifecycle ViewModel
-  - Core KTX
-  - Splash Screen
-- **System UI Controller**: For status/navigation bar theming
-- **CountDownTimer**: For precise timer functionality
+  - Activity Compose 1.8.2
+  - Lifecycle ViewModel Compose 2.7.0
+  - Core KTX 1.13.1
+  - Core Splash Screen 1.0.1
+  - Material Icons Extended
+- **Accompanist System UI Controller 0.36.0**: For immersive status/navigation bar theming
+- **Android Gradle Plugin 8.1.2**: Latest build tools
+- **ProGuard**: Code obfuscation and optimization for release builds
+- **JUnit & Espresso**: Testing framework for unit and UI tests
 
 ## 🎨 Design Highlights
 
